@@ -1,0 +1,13 @@
+[requires]
+cpr/1.10.5#82c1a371b61d632a18c748670d1099d6
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+cpr*:with_ssl=openssl
+libcurl*:with_ssl=openssl
+
+[layout]
+cmake_layout
